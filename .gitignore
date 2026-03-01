@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment secrets
+.env
+token.json
+credentials.json
+client_secret_*.json
+matches.txt
+
+# Database
+*.db
+*.sqlite3
+
+# ChromaDB vector store
+chroma_db/
+
+# Graph memory
+graph_memory.pkl
+
+# Node modules
+node_modules/
+
+# Vite build output
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
